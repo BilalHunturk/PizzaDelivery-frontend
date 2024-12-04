@@ -48,14 +48,6 @@ Ensure you have the following installed:
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **ESLint**: For maintaining code quality and standards.
 
-## 📜 License
-
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributions
-
-Contributions are welcome! Feel free to fork this repository, make your changes, and submit a pull request.
-
 ---
 
 Happy Coding! 🍕
