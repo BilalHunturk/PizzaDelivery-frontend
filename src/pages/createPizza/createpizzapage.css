@@ -1,0 +1,112 @@
+.custom-input:focus{
+    outline: none !important;
+    border-color: #adadad !important;
+    box-shadow: 0 0 8px #adadad !important;
+}
+.custom-input:hover {
+    border-color: #adadad !important; /* Change border color on hover */
+  }
+
+
+  
+.custom-button{
+    background-color: #2391ff;
+    /* background-color: transparent; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+    border-radius: 8px;
+
+    width:25%;
+    height: 100%;
+
+    transition: transform 300ms ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease, box-shadow 0.3s ease;
+    /* transition-duration: 1000ms; */
+    /* transition: background-color 1s ease, color 0.1s ease, box-shadow 0.1s ease; */
+    /* background: radial-gradient(circle at center, transparent 0%, transparent 50%, #2391ff 50%); */
+    /* transition:  0.2s ease-out; */
+}
+
+.custom-button:hover {
+    /* background-color: radial-gradient(circle at center, rgba(22, 89, 156, 0.5) 0%, rgba(35, 145, 255, 0.5) 100%); */
+    background: radial-gradient(circle at center, rgba(122, 211, 152, 0.842) 50%, rgb(34 197 94) 100%);
+    
+    /* background: radial-gradient(circle at center, rgba(65, 154, 255, 0.842) 15%, rgb(35, 145, 255) 100%); */
+    background-color: rgb(34, 197, 94); 
+    color: white; /* Text color change on hover */
+    box-shadow: 10px 20px 40px 0px rgba(34, 197, 94, 0.5); /*Change background color on hover
+    /* box-shadow: -4px -10px 0px 0px rgba(35, 145, 255, 0.5); Change background color on hover */
+    /* box-shadow: 4px 10px 0px 0px rgba(35, 145, 255, 0.5); Change background color on hover */
+    
+    transform: scale(1.05);
+}
+
+.custom-button:disabled {
+    background-color: #2391ff; /* Gray background when disabled */
+    cursor: not-allowed; /* Change cursor when disabled */
+  }
+
+  .custom-button:active {
+   transform: scale(0.95); /* Slight scale down effect */
+   background-color: #2391ff;
+}
+
+
+
+.custom-ingredients{
+    background-color: #2391ff;
+    /* background-color: transparent; */
+
+
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+    border-radius: 8px;
+
+    width:25%;
+    height: 100%;
+
+    transition: transform 300ms ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease, box-shadow 0.3s ease;
+    /* transition-duration: 1000ms; */
+    /* transition: background-color 1s ease, color 0.1s ease, box-shadow 0.1s ease; */
+    /* background: radial-gradient(circle at center, transparent 0%, transparent 50%, #2391ff 50%); */
+    /* transition:  0.2s ease-out; */
+}
+
+.custom-ingredients:hover {
+    /* background-color: radial-gradient(circle at center, rgba(22, 89, 156, 0.5) 0%, rgba(35, 145, 255, 0.5) 100%); */
+    background: radial-gradient(circle at center, rgba(122, 211, 152, 0.842) 50%, rgb(34 197 94) 100%);
+    
+    /* background: radial-gradient(circle at center, rgba(65, 154, 255, 0.842) 15%, rgb(35, 145, 255) 100%); */
+    background-color: #22c55e; 
+    color: white; /* Text color change on hover */
+    box-shadow: 10px 20px 40px 0px rgba(34, 197, 94, 0.5); /*Change background color on hover
+    /* box-shadow: -4px -10px 0px 0px rgba(35, 145, 255, 0.5); Change background color on hover */
+    /* box-shadow: 4px 10px 0px 0px rgba(35, 145, 255, 0.5); Change background color on hover */
+    
+    transform: scale(1.05);
+}
+
+.custom-ingredients:disabled {
+    background-color: #2391ff; /* Gray background when disabled */
+    cursor: not-allowed; /* Change cursor when disabled */
+  }
+
+  .custom-ingredients:active {
+   transform: scale(0.95); /* Slight scale down effect */
+   background-color: #2391ff;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: 350;
+}

@@ -1,0 +1,331 @@
+.rectangle-36{
+    width: 654px;
+    height: 223px;
+    position: relative;
+    background: #d9d9d982;
+    border-radius: 99px;
+    overflow: hidden; /* Ensure inner content does not overflow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.blur-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    z-index: 0;
+}
+
+.rectangle-content {
+    position: relative;
+    z-index: 1; /* Ensure content stays above the blur background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent-edges {
+    position: relative;
+    width: 654px;
+    height: 223px;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .transparent-edges::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(217, 217, 217, 0) 70%, rgba(217, 217, 217, 0.5) 100%);
+    pointer-events: none;
+  }
+  
+
+/* Web-HomePage */
+.web-homepage {
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    background: #000000;
+}
+
+/* Rectangle 34 */
+.rectangle-34 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+/* Image 1 */
+.image-1 {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    background: url(image.png);
+}
+
+/* Pizza (1) */
+.logo-container img {
+    width: 40%;
+    height: 40%;
+    object-fit: cover; /* Görüntüyü tam olarak doldurur */
+    border-radius: 50%; /* Görüntüyü de yuvarlak yapar */
+    margin-top: 15%;
+    margin-left: 25%;
+  }
+
+/* Rectangle 35 */
+.rectangle-35 {
+    position: absolute;
+    width: 654px;
+    height: 223px;
+    left: 609px;
+    top: 590px;
+    background: rgba(217, 217, 217, 0.51);
+    border-radius: 99px;
+}
+
+/* Deliver Pizza! */
+.deliver-pizza {
+    position: absolute;
+    width: 673px;
+    height: 126px;
+    left: 638px;
+    top: 607px;
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 160px;
+    color: #000000;
+}
+
+/* Button Danger */
+.button-danger {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    position: absolute;
+    width: 123px;
+    height: 40px;
+    left: 884px;
+    top: 733px;
+    background: #EC221F;
+    border: 1px solid #C00F0C;
+    border-radius: 8px;
+}
+
+/* Button Danger Text */
+.button-danger-text {
+    width: 44px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FEE9E7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Header */
+
+
+/* .main-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 0px;
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+    background: #F5F5F5;
+    border-bottom: 1px solid #D9D9D9;
+} */
+
+.logo-1 {
+    margin-right: auto;
+}
+
+/* Navigation Pill List */
+
+/* Navigation Pill */
+.nav-pill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16px;
+    width: 90px;
+    height: 32px;
+    background: #F5F5F5;
+}
+
+
+
+.nav-pill a {
+    text-decoration: none;
+    /* Alt çizgiyi kaldırır */
+    color: #1E1E1E;
+}
+
+.nav-pill-1 {
+    width: 4%;
+    height: 32px;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Header Auth */
+.header-auth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 178px;
+    height: 32px;
+    background: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+/* Button */
+
+
+
+
+/* Button Text */
+
+
+.button-text-1 {
+    color: #F5F5F5;
+}
+
+/* Star */
+.star {
+    display: none;
+    width: 16px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* X */
+.x {
+    display: none;
+    width: 16px;
+    height: 16px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.custom-arrow {
+    background-color: rgba(0, 0, 0, 0.5); /* Change arrow background color */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-arrow::before {
+    color: white; /* Change the arrow icon color */
+    font-size: 18px;
+}
+
+.custom-prev-arrow {
+    left: -25px; /* Adjust position of the left arrow */
+}
+
+.custom-next-arrow {
+    right: -25px; /* Adjust position of the right arrow */
+}
+
+.custom-button-card{
+    /* --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-radius: 10%;
+    /* transition: transform 300ms ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease, box-shadow 0.3s ease; */
+    
+    --tw-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1); /* Daha yumuşak gölge */
+    --tw-shadow-colored: 0 8px 16px -4px var(--tw-shadow-color), 0 4px 6px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-radius: 10%;
+    transition: transform 300ms ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease, box-shadow 0.3s ease;
+
+
+    /* transition-duration: 1000ms; */
+    /* transition: background-color 1s ease, color 0.1s ease, box-shadow 0.1s ease; */
+    /* background: radial-gradient(circle at center, transparent 0%, transparent 50%, #2391ff 50%); */
+    /* transition:  0.2s ease-out; */
+}
+
+.custom-button-card:hover {
+    /* background-color: radial-gradient(circle at center, rgba(22, 89, 156, 0.5) 0%, rgba(35, 145, 255, 0.5) 100%); */
+    /* background: radial-gradient(circle at center, rgba(255, 255, 255, 0.745) 50%, rgba(255, 255, 255, 0.683) 100%); */
+    
+    background: radial-gradient(circle at center, rgba(255, 214, 165, 0.8) 40%, rgba(255, 138, 138, 0.8) 100%);
+    /* color: #ffffff; */
+    box-shadow: 0 12px 24px -4px rgba(255, 138, 138, 0.5), 0 8px 10px -2px rgba(255, 138, 138, 0.3); /* Uyumlu gölge */
+    transform: scale(1.05);
+
+    /* background: radial-gradient(circle at center, rgba(255, 214, 165, 0.8) 40%, rgba(255, 138, 138, 0.8) 100%);
+    color: #ffffff; 
+    box-shadow: 8px 16px 24px 0px rgba(255, 138, 138, 0.5); 
+    transform: scale(1.05); */
+
+    /* background: radial-gradient(circle at center, rgba(65, 154, 255, 0.842) 15%, rgb(35, 145, 255) 100%); */
+    /* background-color: rgba(255, 176, 176, 0.713);  */
+    /* color: white;  */
+    /* box-shadow: 10px 20px 30px 0px rgba(255, 202, 202, 0.5); /*Change background color on hover */
+    /* box-shadow: -4px -10px 0px 0px rgba(35, 145, 255, 0.5); Change background color on hover */
+    /* box-shadow: 4px 10px 0px 0px rgba(35, 145, 255, 0.5); Change background color on hover */
+    
+    /* transform: scale(1.05); */
+}
+
+.custom-button-card:disabled {
+    /* background-color: rgba(255, 149, 149, 0.348);  */
+    /* cursor: not-allowed;  */
+    background-color: rgba(255, 214, 165, 0.5); /* Disabled durumunda daha sıcak bir gri yerine soft turuncu/pembe tonları */
+    color: rgba(255, 255, 255, 0.7); /* Hafif beyaz metin */
+    cursor: not-allowed; /* Disabled durumda imleç */
+    box-shadow: none; /* Disabled durumda gölgeyi kaldırıyoruz */
+  }
+
+.custom-button-card:active {
+   /* transform: scale(0.95);  */
+   /* background-color: #fe7676; */
+   transform: scale(0.95); /* Hafif küçülme efekti */
+   background-color: rgba(255, 138, 138, 0.9); /* Daha koyu pembe arka plan aktif durum için */
+   box-shadow: 0 8px 16px -4px rgba(255, 138, 138, 0.6), 0 4px 6px -2px rgba(255, 138, 138, 0.4); /* Aktif durumda hafif gölge */
+
+}

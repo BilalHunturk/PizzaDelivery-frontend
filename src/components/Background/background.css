@@ -1,0 +1,16 @@
+.background-wrapper {
+    position: fixed;
+    background-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.background-image {
+    width: 1920px; /* Fixed width */
+    height: 1080px; /* Fixed height */
+    max-width: fit-content;
+    object-fit: contain; /* or 'cover' depending on your needs */
+}
